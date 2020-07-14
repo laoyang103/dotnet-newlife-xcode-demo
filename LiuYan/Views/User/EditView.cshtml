@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <form method="post" action='~/User/Edit/'>
+            @{
+                User.User user = ViewData["User"] as User.User;
+                <li><b>         </b> <input type="hidden"     value="@user.id"        name="id"        /></li>
+                <li><b>用户名:  </b> <input type="text"       value="@user.Username"  name="Username"  /></li>
+                <li><b>密码:    </b> <input type="password"   value="@user.Username"  name="Password"  /></li>
+                <li><b>真实姓名:</b> <input type="text"       value="@user.Realname"  name="RealName"  /></li>
+                <li><b>邮箱:    </b> <input type="text"       value="@user.Email"     name="Email"     /></li>
+                <li><b>电话:    </b> <input type="text"       value="@user.Telephone" name="Telephone" /></li>
+            }
+            <input type="submit" value="修改" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LiuYan</title>
+</head>
+<body>
+    <ul>
+        <a href="/LiuYan/LiuYanView/">留言</a>
+        <a href="/User/Logout/">注销</a>
+        @{
+            User.User u = ViewData["User"] as User.User;
+            if (1 == u.id)
+            {
+                <a href="/User/ManagerView/">用户管理</a>
+            }
+            <p>当前用户: @u.Username</p>
+        }
+
+        </ul>
+    <div>
+        <table class="table" border="1">
+            <thead>
+                <th>
+                    id
+                </th>
+                <th>
+                    用户名
+                </th>
+                <th>
+                    信息
+                </th>
+                <th>
+                    操作
+                </th>
+            </thead>
+            @{ 
+                List<LiuYan> lyList = ViewData["data"] as List<LiuYan>;
+            }
+            @foreach (var ly in lyList)
+            {
+                <tr>
+                    <td>@ly.id</td>
+                    @if (1 == u.id)
+                    {
+                        <td>@ly.id</td>
+                    }
+                    else
+                    {
+                        <td>@u.Username</td>
+                    }
+                    <td>@ly.Detail</td>
+                    <td><a href='@Url.Content("~/LiuYan/Delete?id="+ly.id)'>删除</td>
+                </tr>
+            }
+        </table>
+        </br>
+        <form method="post" action='~/LiuYan/Add'>
+            <input type="text" name="detail" />
+            @{
+                <input type="hidden" name="Userid" value="@u.id" />
+            }
+            <input type="submit" value="提交" />
+        </form>
+    </div>
+</body>
+</html>

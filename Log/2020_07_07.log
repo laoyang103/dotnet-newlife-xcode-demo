@@ -1,0 +1,501 @@
+﻿#Software: iisexpress
+#ProcessID: 12900
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385825823673848
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:03:07.646  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:03:07.649  6 W - X组件核心库 ©2002-2020 NewLife
+16:03:07.649  6 W - 初始化NewLife.Setting的配置 NewLife.Configuration.XmlConfigProvider
+16:03:07.664  6 W - 保存配置 D:\msys32\home\Work\LiuYan\LiuYan\Config\Core.config
+16:03:07.674  6 W - 初始化XCode.Setting的配置 NewLife.Configuration.XmlConfigProvider
+16:03:07.681  6 W - 保存配置 D:\msys32\home\Work\LiuYan\LiuYan\Config\XCode.config
+16:03:07.691  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:03:07.691  6 W - 数据中间件 ©2002-2020 NewLife
+16:03:07.694 14 Y - 配置文件改变，重新加载 D:\msys32\home\Work\LiuYan\LiuYan\Config\XCode.config
+16:03:08.224 10 Y 7 MySql.Data.dll不存在或平台版本不正确，准备联网获取 http://x.newlifex.com/
+16:03:08.235 10 Y 7 下载链接 http://x.newlifex.com/，目标 MySql.DataFx40,MySql.Data
+16:03:08.249  8 Y 8 WebClientX.Get http://x.newlifex.com/
+16:03:08.667 10 Y 7 分析得到文件 mysql.data_20170602233831.zip，准备下载 http://x.newlifex.com/mysql.data_20170602233831.zip，保存到 D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data_20170602233831.zip
+16:03:08.669  9 Y 23 WebClientX.Get http://x.newlifex.com/mysql.data_20170602233831.zip
+16:03:08.821 10 Y 7 下载完成，共171,669字节，耗时153毫秒
+16:03:08.821 10 Y 7 解压缩到 D:\msys32\home\Work\LiuYan\LiuYan\Plugins
+16:03:08.975 10 Y 7 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:03:08.975 10 Y 7 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:03:10.757  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:03:10.841  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:03:10.959  6 W - Microsoft.Data.Sqlite.dll不存在或平台版本不正确，准备联网获取 http://x.newlifex.com/
+16:03:10.959  6 W - 下载链接 http://x.newlifex.com/，目标 Microsoft.Data.SqliteFx40
+16:03:10.960  8 Y 40 WebClientX.Get http://x.newlifex.com/
+16:03:11.104  6 W - 未找到  Microsoft.Data.Sqlite.dll
+16:03:11.118  6 W - System.Data.SQLite.dll不存在或平台版本不正确，准备联网获取 http://x.newlifex.com/
+16:03:11.118  6 W - 下载链接 http://x.newlifex.com/，目标 System.Data.SQLiteFx40,System.Data.SQLite
+16:03:11.118  9 Y 55 WebClientX.Get http://x.newlifex.com/
+16:03:11.288  6 W - 分析得到文件 System.Data.SQLiteFX40_v3.26.zip，准备下载 http://x.newlifex.com/System.Data.SQLiteFX40_v3.26.zip，保存到 D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLiteFX40_v3.26.zip
+16:03:11.289 21 Y 70 WebClientX.Get http://x.newlifex.com/System.Data.SQLiteFX40_v3.26.zip
+16:03:11.489  6 W - 下载完成，共734,359字节，耗时194毫秒
+16:03:11.489  6 W - 解压缩到 D:\msys32\home\Work\LiuYan\LiuYan\Plugins
+16:03:11.598  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:03:11.599  6 W - System.Data.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:03:11.624  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:03:12.108  6 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:03:12.108  6 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:03:12.109  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时1,352ms
+16:03:12.114  6 W - Insert Into LiuYan(detail) Values('bbbbbbbbbbbbbbb');Select LAST_INSERT_ID()
+16:03:19.063 10 Y 7 [LiuYanConn]GetSchema("MetaDataCollections")
+16:03:19.081 10 Y 7 [LiuYanConn]GetSchema("Databases", "szdb")
+
+#Software: iisexpress
+#ProcessID: 9804
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385846249754001
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:37:10.192  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:37:10.194  6 W - X组件核心库 ©2002-2020 NewLife
+16:37:10.194  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:37:10.195  6 W - 数据中间件 ©2002-2020 NewLife
+16:37:10.683 10 Y 7 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:37:10.683 10 Y 7 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:37:13.260  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:37:13.306  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:37:13.332  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:37:13.332  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:37:13.360  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:37:13.616  6 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:37:13.616  6 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:37:13.616  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时356ms
+16:37:13.622  6 W - Select * From LiuYan Order By Id Desc
+16:37:20.776 10 Y 7 [LiuYanConn]GetSchema("MetaDataCollections")
+16:37:20.790 10 Y 7 [LiuYanConn]GetSchema("Databases", "szdb")
+16:37:59.675  6 W - Select * From LiuYan Order By Id Desc
+
+#Software: iisexpress
+#ProcessID: 5764
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385850339742996
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:44:00.618  9 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:44:00.619  9 W - X组件核心库 ©2002-2020 NewLife
+16:44:00.619  9 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:44:00.620  9 W - 数据中间件 ©2002-2020 NewLife
+16:44:01.129  6 Y 17 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:44:01.129  6 Y 17 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:44:03.711  9 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:44:04.221  9 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:44:04.261  9 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:44:04.261  9 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:44:04.289  9 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:44:04.353  9 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:44:04.353  9 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:44:04.354  9 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时642ms
+16:44:04.362  9 W - Select * From LiuYan Order By Id Desc
+16:44:11.254  6 Y 17 [LiuYanConn]GetSchema("MetaDataCollections")
+16:44:11.268  6 Y 17 [LiuYanConn]GetSchema("Databases", "szdb")
+16:44:26.641  8 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+16:44:57.807  6 W - Select * From LiuYan Order By Id Desc
+16:46:20.790  8 W - Select * From LiuYan Order By Id Desc
+16:46:24.981 18 W - Insert Into LiuYan(detail) Values('9999');Select LAST_INSERT_ID()
+16:46:27.063  9 W - Select * From LiuYan Order By Id Desc
+
+#Software: iisexpress
+#ProcessID: 4408
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385853212823215
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:49:11.768  8 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:49:11.769  8 W - X组件核心库 ©2002-2020 NewLife
+16:49:11.769  8 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:49:11.769  8 W - 数据中间件 ©2002-2020 NewLife
+16:49:12.250  6 Y 17 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:49:12.250  6 Y 17 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:49:14.821  8 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:49:14.855  8 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:49:14.934  8 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:49:14.934  8 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:49:14.965  8 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:49:15.274  8 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:49:15.274  8 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:49:15.274  8 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时453ms
+16:49:15.280  8 W - Select * From LiuYan Order By Id Desc
+16:49:22.382  6 Y 17 [LiuYanConn]GetSchema("MetaDataCollections")
+16:49:22.396  6 Y 17 [LiuYanConn]GetSchema("Databases", "szdb")
+16:49:30.266  6 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+
+#Software: iisexpress
+#ProcessID: 11184
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385855356939715
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:52:17.924  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:52:17.927  6 W - X组件核心库 ©2002-2020 NewLife
+16:52:17.927  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:52:17.927  6 W - 数据中间件 ©2002-2020 NewLife
+16:52:42.280  8 Y 16 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:52:42.280  8 Y 16 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:52:44.838  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:52:44.895  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:52:44.929  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:52:44.930  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:52:44.956  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:52:45.252  6 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:52:45.252  6 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:52:45.252  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时414ms
+16:52:45.258  6 W - Select * From LiuYan Order By Id Desc
+16:52:52.397  8 Y 16 [LiuYanConn]GetSchema("MetaDataCollections")
+16:52:52.412  8 Y 16 [LiuYanConn]GetSchema("Databases", "szdb")
+16:53:03.980  6 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+16:53:52.499  6 W - Select * From LiuYan Order By Id Desc
+16:53:55.338  6 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+
+#Software: iisexpress
+#ProcessID: 12704
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385856538991975
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:54:14.837  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:54:14.844  6 W - X组件核心库 ©2002-2020 NewLife
+16:54:14.844  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:54:14.844  6 W - 数据中间件 ©2002-2020 NewLife
+16:54:15.370  8 Y 7 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:54:15.371  8 Y 7 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:54:17.941  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:54:18.245  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:54:18.267  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:54:18.267  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:54:18.296  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:54:18.359  6 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:54:18.359  6 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:54:18.359  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时417ms
+16:54:18.365  6 W - Select * From LiuYan Order By Id Desc
+16:54:25.511  8 Y 7 [LiuYanConn]GetSchema("MetaDataCollections")
+16:54:25.526  8 Y 7 [LiuYanConn]GetSchema("Databases", "szdb")
+
+#Software: iisexpress
+#ProcessID: 7024
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385857560124864
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:56:00.981  9 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:56:00.983  9 W - X组件核心库 ©2002-2020 NewLife
+16:56:00.983  9 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:56:00.985  9 W - 数据中间件 ©2002-2020 NewLife
+16:56:01.444  6 Y 17 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:56:01.444  6 Y 17 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:56:04.041  9 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:56:04.569  9 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:56:04.590  9 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:56:04.590  9 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:56:04.622  9 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:56:04.671  9 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:56:04.671  9 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:56:04.672  9 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时632ms
+16:56:04.678  9 W - Select * From LiuYan Order By Id Desc
+16:56:11.557  6 Y 17 [LiuYanConn]GetSchema("MetaDataCollections")
+16:56:11.571  6 Y 17 [LiuYanConn]GetSchema("Databases", "szdb")
+16:56:26.380  8 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+
+#Software: iisexpress
+#ProcessID: 9444
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385858305034092
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:57:12.871  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+16:57:12.874  6 W - X组件核心库 ©2002-2020 NewLife
+16:57:12.874  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+16:57:12.874  6 W - 数据中间件 ©2002-2020 NewLife
+16:57:13.334 10 Y 7 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+16:57:13.334 10 Y 7 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+16:57:15.927  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+16:57:16.013  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+16:57:16.041  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+16:57:16.041  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+16:57:16.067  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+16:57:16.316  6 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+16:57:16.316  6 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+16:57:16.317  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时390ms
+16:57:16.322  6 W - Select * From LiuYan Order By Id Desc
+16:57:23.425 10 Y 7 [LiuYanConn]GetSchema("MetaDataCollections")
+16:57:23.441 10 Y 7 [LiuYanConn]GetSchema("Databases", "szdb")
+16:57:31.970  8 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+16:57:34.660  6 W - Select * From LiuYan Order By Id Desc
+16:57:40.007  6 W - Insert Into LiuYan(detail) Values('123');Select LAST_INSERT_ID()
+16:57:41.097 22 W - Select * From LiuYan Order By Id Desc
+
+#Software: iisexpress
+#ProcessID: 1172
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385863493100362
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+17:05:53.143  7 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+17:05:53.144  7 W - X组件核心库 ©2002-2020 NewLife
+17:05:53.144  7 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+17:05:53.145  7 W - 数据中间件 ©2002-2020 NewLife
+17:05:53.864 10 Y 13 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+17:05:53.864 10 Y 13 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+17:05:56.275  7 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+17:05:56.330  7 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+17:05:56.368  7 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+17:05:56.368  7 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+17:05:56.399  7 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+17:05:56.689  7 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+17:05:56.689  7 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+17:05:56.690  7 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时414ms
+17:05:56.695  7 W - Select * From LiuYan Order By Id Desc
+17:06:03.954 10 Y 13 [LiuYanConn]GetSchema("MetaDataCollections")
+17:06:03.968 10 Y 13 [LiuYanConn]GetSchema("Databases", "szdb")
+17:06:10.345  7 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+17:06:11.481  6 W - Select * From LiuYan Order By Id Desc
+17:06:15.804  6 W - Insert Into LiuYan(detail) Values('123');Select LAST_INSERT_ID()
+17:06:16.871 11 W - Select * From LiuYan Order By Id Desc
+
+#Software: iisexpress
+#ProcessID: 6200
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385864875985365
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+17:08:08.600  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+17:08:08.601  6 W - X组件核心库 ©2002-2020 NewLife
+17:08:08.601  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+17:08:08.602  6 W - 数据中间件 ©2002-2020 NewLife
+17:08:09.151  8 Y 7 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+17:08:09.152  8 Y 7 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+17:08:11.696  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+17:08:12.006  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+17:08:12.031  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+17:08:12.031  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+17:08:12.064  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+17:08:12.130  6 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+17:08:12.130  6 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+17:08:12.131  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时435ms
+17:08:12.138  6 W - Select * From LiuYan Order By Id Desc
+17:08:19.281  8 Y 7 [LiuYanConn]GetSchema("MetaDataCollections")
+17:08:19.296  8 Y 7 [LiuYanConn]GetSchema("Databases", "szdb")
+17:08:41.884  6 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+17:08:44.336 13 W - Select * From LiuYan Order By Id Desc
+17:08:48.649  9 W - Delete From LiuYan Where Id=13
+17:08:49.752  6 W - Select * From LiuYan Order By Id Desc
+
+#Software: iisexpress
+#ProcessID: 3572
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385865945169155
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+17:09:58.933  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+17:09:58.943  6 W - X组件核心库 ©2002-2020 NewLife
+17:09:58.943  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+17:09:58.943  6 W - 数据中间件 ©2002-2020 NewLife
+17:09:59.459  7 Y 16 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+17:09:59.459  7 Y 16 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+17:10:02.045  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+17:10:02.456  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+17:10:02.475  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+17:10:02.475  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+17:10:02.498  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+17:10:02.567  6 W - [LiuYanConn]的所有实体类（1个）：LiuYan
+17:10:02.567  6 W - [LiuYanConn]需要检查架构的实体类（1个）：LiuYan
+17:10:02.568  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时523ms
+17:10:02.575  6 W - Select * From LiuYan Order By Id Desc
+17:10:09.585  7 Y 16 [LiuYanConn]GetSchema("MetaDataCollections")
+17:10:09.599  7 Y 16 [LiuYanConn]GetSchema("Databases", "szdb")
+17:10:15.609  9 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+17:10:20.041 16 W - Select * From LiuYan Order By Id Desc
+17:10:23.916  6 W - Insert Into LiuYan(detail) Values('123');Select LAST_INSERT_ID()
+17:10:26.003  6 W - Select * From LiuYan Order By Id Desc
+17:10:27.916  6 W - Insert Into LiuYan(detail) Values('cccc');Select LAST_INSERT_ID()
+17:10:30.000  6 W - Select * From LiuYan Order By Id Desc
+17:10:31.818  6 W - Delete From LiuYan Where Id=18
+17:10:33.917  6 W - Select * From LiuYan Order By Id Desc
+
+#Software: iisexpress
+#ProcessID: 10768
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385876192802347
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+17:27:04.930  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+17:27:04.931  6 W - X组件核心库 ©2002-2020 NewLife
+17:27:04.931  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+17:27:04.931  6 W - 数据中间件 ©2002-2020 NewLife
+17:27:05.419  7 Y 13 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+17:27:05.420  7 Y 13 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+17:27:07.988  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+17:27:08.063  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+17:27:08.112  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+17:27:08.112  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+17:27:08.139  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+17:27:08.429  6 W - [LiuYanConn]的所有实体类（2个）：LiuYan,User
+17:27:08.429  6 W - [LiuYanConn]需要检查架构的实体类（2个）：LiuYan,User
+17:27:08.429  6 W - LiuYanConn待检查表架构的实体个数：1
+17:27:15.529  7 Y 13 [LiuYanConn]GetSchema("MetaDataCollections")
+17:27:15.547  7 Y 13 [LiuYanConn]GetSchema("Databases", "szdb")
+17:27:25.560  6 W - [LiuYanConn]GetSchema("Databases", "szdb")
+17:27:25.565  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时17,577ms
+17:27:25.568  6 W - Select * From LiuYan Order By id Desc
+
+#Software: iisexpress
+#ProcessID: 7892
+#AppDomain: /LM/W3SVC/2/ROOT-1-132385876773023622
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\msys32\home\Work\LiuYan\LiuYan\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#TempPath: C:\Users\Work\AppData\Local\Temp\
+#CommandLine: "C:\Program Files (x86)\IIS Express\iisexpress.exe"  /config:"D:\msys32\home\Work\LiuYan\.vs\config\applicationhost.config" /site:"LiuYan" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Web
+#CLR: 4.0.30319.42000, 
+#OS: Microsoft Windows NT 10.0.19041.0, DESKTOP-209ASAS/Work
+#CPU: 4
+#GC: IsServerGC=True, LatencyMode=Batch
+#Date: 2020-07-07
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+17:28:00.717  6 W - NewLife.Core v8.8.2020.0701 Build 2020-07-01 23:06:30 .NET Framework 4.5
+17:28:00.719  6 W - X组件核心库 ©2002-2020 NewLife
+17:28:00.721  6 W - XCode v9.18.2020.0701 Build 2020-07-01 23:07:02 .NET Framework 4.5
+17:28:00.721  6 W - 数据中间件 ©2002-2020 NewLife
+17:28:01.231  7 Y 16 TypeX.GetType("MySql.Data.MySqlClient.MySqlClientFactory") => Plugins\mysql.data.dll
+17:28:01.231  7 Y 16 MySql.Data驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\mysql.data.dll 版本v6.9.9.0
+17:28:03.803  6 W - 开始检查连接[LiuYanConn/MySql]的数据库架构……
+17:28:04.211  6 W - 自动为[Log]设置SQLite连接字符串：Data Source=..\Data\Log.db;Migration=On
+17:28:04.319  6 W - TypeX.GetType("System.Data.SQLite.SQLiteFactory") => Plugins\System.Data.SQLite.dll
+17:28:04.319  6 W - System.Data.SQLite.SQLite驱动D:\msys32\home\Work\LiuYan\LiuYan\Plugins\System.Data.SQLite.dll 版本v3.26.6935.40216
+17:28:04.344  6 W - Data Source=D:\msys32\home\Work\LiuYan\Data\Log.db;Cache Size=-524288;Synchronous=Off;Journal Mode=WAL
+17:28:04.407  6 W - [LiuYanConn]的所有实体类（2个）：LiuYan,User
+17:28:04.407  6 W - [LiuYanConn]需要检查架构的实体类（2个）：LiuYan,User
+17:28:04.408  6 W - LiuYanConn待检查表架构的实体个数：1
+17:28:11.364  7 Y 16 [LiuYanConn]GetSchema("MetaDataCollections")
+17:28:11.377  7 Y 16 [LiuYanConn]GetSchema("Databases", "szdb")
+17:28:21.399  6 W - [LiuYanConn]GetSchema("Databases", "szdb")
+17:28:21.411  6 W - 检查连接[LiuYanConn/MySql]的数据库架构耗时17,607ms
+17:28:21.417  6 W - Select * From LiuYan Order By id Desc
+17:28:25.734  6 W - Insert Into LiuYan(userid,detail) Values(0,'');Select LAST_INSERT_ID()
+17:28:29.216  6 W - Select * From LiuYan Order By id Desc

@@ -1,0 +1,64 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>用户管理</title>
+</head>
+<body>
+    <ul>
+        <a href="/LiuYan/LiuYanView/">留言</a>
+        <a href="/User/Logout/">注销</a>
+        <a href="/User/ManagerView/">用户管理</a>
+    </ul>
+    <div>
+        <table class="table" border="1">
+            <thead>
+            <th>
+                id
+            </th>
+            <th>
+                用户名
+            </th>
+            <th>
+                真实姓名
+            </th>
+            <th>
+                邮箱
+            </th>
+            <th>
+                电话
+            </th>
+            <th>
+                操作
+            </th>
+            </thead>
+            @{
+                List<User.User> userList = ViewData["data"] as List<User.User>;
+            }
+            @foreach (var user in userList)
+            {
+                <tr>
+                    <td>@user.id</td>
+                    <td>@user.Username</td>
+                    <td>@user.Realname</td>
+                    <td>@user.Email</td>
+                    <td>@user.Telephone</td>
+                    <td>
+                        <a href='@Url.Content("~/User/EditView?id="+user.id)'>修改</a>
+                        <a href='@Url.Content("~/User/Delete?id="+user.id)'>删除</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
+
+
+
+
